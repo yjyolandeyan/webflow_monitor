@@ -1,0 +1,30 @@
+Project Name: Most Important Internet Paths
+Class: NETS 1500
+Creator: Tianyi Wu, Yola Yan
+
+Categories:
+1. Graph and graph algorithms
+2. Physical Networks (Internet)
+
+Description:
+    The goal of this project is to find the spanning tree of a graph that goes from the source node to the target node
+    with the minimum number of edges but each edge with largest edge weight. This is applicable because we have real
+    life implications on finding the largest capacity of a route between certain internet packets so that we know
+    which packets are more important than others based on the server and client ID.
+
+    To account for most reliable paths, we also allow the user to output the first n number of edges with the heaviest
+    edge weight since these are the packets (nodes) that are most important and might need more care.
+
+    With this code, we can analyze the number of packets delivered between different ports in graphs
+    that represent network communication of distributed applications. By finding the minimum spanning subgraph
+    with the highest edge weight (aka maximum number of packets), we know which port needs more maintenance,
+    resources allocation, and error tracking.
+
+Actual Work Breakdown:
+    We start by analyzing the dataset collected, and came up with a design of how the algorithm is going to be
+    implemented as well as what are the important classes/helper functions neded.
+
+    Yola took over the read dataset and graph construction (including graph class), while Tianyi wrote functions
+    to support the importantPath class. Then we combined our codes and debugged together. 
+
+    Yola wrote the user manual and Tianyi wrote the summary.txt.
